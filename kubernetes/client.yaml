@@ -8,7 +8,7 @@ data:
   config.json: |
     {
       "server": {
-        "host": "curing-server-service",
+        "host": "curing-server-service.cure.svc.cluster.local",
         "port": 8888
       },
       "connect_interval_sec": 900,
