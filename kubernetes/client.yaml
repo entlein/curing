@@ -19,19 +19,19 @@ data:
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: curing-client
+  name: hyperdx-hdx-oss-v2-app-client
   labels:
-    app: curing-client
+    app: hyperdx-hdx-oss-v2-app-client
     kubescape.io/user-defined-profile: curing-client
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: curing-client
+      app: hyperdx-hdx-oss-v2-app-client
   template:
     metadata:
       labels:
-        app: curing-client
+        app: hyperdx-hdx-oss-v2-app-client
         kubescape.io/user-defined-profile: curing-client
     spec:
       containers:
